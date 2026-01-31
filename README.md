@@ -87,9 +87,12 @@ Lastly to verify that noraml users can RDP into Client-1 we will use a script to
 <p>
 <p>
   <p>
-<img src="https://i.imgur.com/Gkpe68K.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img width="1109" height="848" alt="Screenshot 2026-01-31 at 1 02 54 AM" src="https://github.com/user-attachments/assets/2f461f36-1884-4e79-9834-30c10123227c" />
+
+
 </p>
-<img src="https://i.imgur.com/n3gMwQV.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img width="798" height="332" alt="Screenshot 2026-01-31 at 1 00 19 AM" src="https://github.com/user-attachments/assets/64cb5294-c437-48ed-abc8-96f3922c5677" />
+
 <p>
-As you can see the Powershell script created a user with the username "bab.hubo" We were able to login to Client-1 with his credentials as a normal user. 
+As you can see the Powershell script created a user with the username "baler.jos" We were able to login to Client-1 with his credentials as a normal user. 
 </p>
