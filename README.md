@@ -68,7 +68,8 @@ We have to join Client-1 to the domain in order to do so navigate to your system
 <br />
 <p>
   <p>
-<img src="https://i.imgur.com/Ze0Em5e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="896" height="711" alt="Screenshot 2026-01-31 at 1 25 28 AM" src="https://github.com/user-attachments/assets/bba0cd8f-e5ee-4219-ba85-66bc5c2e12a0" />
+
 </p>
 <p>
 Client-1 is now a part of the domain. Now we will set up remote desktop for non-administrative users on Client-1. We have to log into Client-1 as an admin and open system properties. Click on "Remote Desktop", allow "domain users" access to remote desktop. After completing those steps you should be able to log into Client-1 as a normal user.
