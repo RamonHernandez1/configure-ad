@@ -95,5 +95,5 @@ To verify that normal users can RDP into Client-1, we will use a script to gener
 <img width="798" height="332" alt="Screenshot 2026-01-31 at 1 00 19 AM" src="https://github.com/user-attachments/assets/64cb5294-c437-48ed-abc8-96f3922c5677" />
 
 <p>
-As you can see the Powershell script created a user with the username "baler.jos" and We were able to login into Client-1 with his credentials as a normal user. 
+Here you can see the Powershell script created a user with the username "baler.jos" and We were able to login into Client-1 with his credentials as a normal user. 
 </p>
