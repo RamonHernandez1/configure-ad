@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 </p>
 <p>
-In this lab we will create two VMs in the same VNET. One will be a Domain Controller, the other will be a Client machine. We will change the DC to a static IP because its offering Active Directory services to the client machine. Client machine will be joined to the domain. We will control the DNS settings on the client machine, the client machine will use the DC as its DNS server. 
+In this lab we will create two VM's (Virtual Machines)in the same VNET (Virtual Network). One will be a Domain Controller, the other will be a Client machine. We will change the DC to a static IP because its offering Active Directory services to the client machine. Client machine will be joined to the domain and We will control the DNS settings on the client machine, the client machine will use the DC as its DNS (Domain Name System)server. 
 </p>
 <br />
 
@@ -47,7 +47,7 @@ Now we will log back into DC-1 to install AD Users & Computers. Promote the VM t
 <img src="https://i.imgur.com/cGjvRke.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
-We can start creating Organizational Units (OU). Let's first create an OU named _EMPLOYEES. Create another OU named _ADMINS. In order to do that right click on the domain area. Select new->Organizational Unit and fill out the field. Then click inside of your OU and right click, select new and select user and fill out the information for your new user. The user should be named Jane Doe, she is going to be an Admin so her username will be Jane_admin. Lastly add Jane to the domain admins security group. 
+We can start creating Organizational Units (OU). Let's first create an OU named _EMPLOYEES then Create another OU named _ADMINS. In order to do that right click on the domain area, Select new->Organizational Unit and fill out the field, Then click inside of your OU and right click, Select new and select user and fill out the information for your new user. The user should be named Jane Doe, she is going to be an Admin so her username will be Jane_admin. Lastly add Jane to the domain admins security group. 
 </p>
 <img src="https://i.imgur.com/hL7g5Y5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -81,7 +81,7 @@ Client-1 is now a part of the domain. Now we will set up remote desktop for non-
 <img src="https://i.imgur.com/SApOKiE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To verify that noraml users can RDP into Client-1 we will use a script to generate thousands of users into the domain. We will input the script in powershell, after the users are created we will select one and RDP into Client-1.
+To verify that normal users can RDP into Client-1, we will use a script to generate thousands of users into the domain. We will input the script in powershell, after the users are created we will select one and RDP into Client-1.
 </p>
 <br />
 <img src="https://i.imgur.com/EzWG8ug.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -95,5 +95,5 @@ To verify that noraml users can RDP into Client-1 we will use a script to genera
 <img width="798" height="332" alt="Screenshot 2026-01-31 at 1 00 19 AM" src="https://github.com/user-attachments/assets/64cb5294-c437-48ed-abc8-96f3922c5677" />
 
 <p>
-As you can see the Powershell script created a user with the username "baler.jos" We were able to login to Client-1 with his credentials as a normal user. 
+As you can see the Powershell script created a user with the username "baler.jos" and We were able to login into Client-1 with his credentials as a normal user. 
 </p>
